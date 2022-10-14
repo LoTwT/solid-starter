@@ -3,7 +3,7 @@
   "description": "solid starter",
   "packageManager": "pnpm@7.13.4",
   "scripts": {
-    "dev": "vite --port 3333 --open",
+    "dev": "vite --port 3333 --open --host",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "prettier -c .",
