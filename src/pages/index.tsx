@@ -5,7 +5,7 @@ const Index = () => (
   <div class={styles.App}>
     <header class={styles.header}>
       <img src={logo} class={styles.logo} alt="logo" />
-      <p>
+      <p mt-8>
         Edit <code>src/App.tsx</code> and save to reload.
       </p>
       <a

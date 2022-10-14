@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
 import AutoImport from "unplugin-auto-import/vite";
 import Pages from "vite-plugin-pages";
+import Unocss from "unocss/vite";
 
 export default defineConfig({
   build: {
@@ -21,6 +22,8 @@ export default defineConfig({
     Pages({
       dirs: "src/pages",
     }),
+
+    Unocss(),
   ],
 
   resolve: {
