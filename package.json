@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/LoTwT/solid-starter#readme",
   "dependencies": {
+    "solid-app-router": "^0.4.2",
     "solid-js": "^1.5.7"
   },
   "devDependencies": {
@@ -38,6 +39,7 @@
     "typescript": "^4.8.4",
     "unplugin-auto-import": "^0.11.2",
     "vite": "^3.1.8",
+    "vite-plugin-pages": "^0.26.0",
     "vite-plugin-solid": "^2.3.9",
     "vitest": "^0.24.1"
   },

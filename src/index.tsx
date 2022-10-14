@@ -1,7 +1,17 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
+import { Router, useRoutes } from "solid-app-router";
+import routes from "~solid-pages";
 
-import "./index.css";
-import App from "./App";
+import "@/styles/index.css";
 
-render(() => <App />, document.getElementById("root") as HTMLElement);
+const Routes = useRoutes(routes);
+
+render(
+  () => (
+    <Router>
+      <Routes />
+    </Router>
+  ),
+  document.getElementById("root") as HTMLElement
+);
