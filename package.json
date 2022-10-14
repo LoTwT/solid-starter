@@ -1,0 +1,52 @@
+{
+  "name": "solid-starter",
+  "description": "solid starter",
+  "packageManager": "pnpm@7.13.4",
+  "scripts": {
+    "dev": "vite --port 3333 --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "prettier -c .",
+    "prettier": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "prepare": "simple-git-hooks",
+    "up": "taze latest -I"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoTwT/solid-starter.git"
+  },
+  "keywords": [],
+  "author": "LoTwT <l709937065@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LoTwT/solid-starter/issues"
+  },
+  "homepage": "https://github.com/LoTwT/solid-starter#readme",
+  "dependencies": {
+    "solid-js": "^1.5.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.5",
+    "jsdom": "^20.0.1",
+    "lint-staged": "^13.0.3",
+    "pnpm": "^7.13.4",
+    "prettier": "^2.7.1",
+    "simple-git-hooks": "^2.8.0",
+    "taze": "^0.8.2",
+    "typescript": "^4.8.4",
+    "unplugin-auto-import": "^0.11.2",
+    "vite": "^3.1.8",
+    "vite-plugin-solid": "^2.3.9",
+    "vitest": "^0.24.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm exec lint-staged"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ]
+  }
+}
