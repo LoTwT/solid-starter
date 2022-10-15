@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  "@iconify-json/carbon": ^1.1.8
   "@types/node": ^18.8.5
   "@unocss/reset": ^0.45.29
   jsdom: ^20.0.1
@@ -24,6 +25,7 @@ dependencies:
   solid-js: 1.5.7
 
 devDependencies:
+  "@iconify-json/carbon": 1.1.8
   "@types/node": 18.8.5
   "@unocss/reset": 0.45.29
   jsdom: 20.0.1
@@ -507,6 +509,15 @@ packages:
       {
         integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==,
       }
+    dev: true
+
+  /@iconify-json/carbon/1.1.8:
+    resolution:
+      {
+        integrity: sha512-aSoMgvZyvIXadLbMXcfS+qy8CVxSExvvp8Vd/nCrupLFc0KLKSukRInnVNc63zaHqoe1NBf5xUrgfyRYYfaKWQ==,
+      }
+    dependencies:
+      "@iconify/types": 2.0.0
     dev: true
 
   /@iconify/types/2.0.0:
