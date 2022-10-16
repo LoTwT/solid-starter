@@ -1,34 +1,69 @@
+# solid-starter
+
+solid version of [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite)
+
+## Features
+
+- ⚡️ [Solid](https://github.com/solidjs/solid), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/)
+
+- 🗂 [File based routing](https://github.com/hannoeru/vite-plugin-pages)
+
+- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
+
+- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+
+- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import)
+
+- 🦾 TypeScript, of course
+
+- ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest)
+
+## Pre-packed
+
+### UI Frameworks
+
+- [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
+
+### Icons
+
+- [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
+- [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+
+## Checklist
+
+When you use this template, try follow the checklist to update your info properly
+
+- [ ] Change the author name in `LICENSE`
+- [ ] Change the hostname in `vite.config.ts`
+- [ ] Change the favicon in `public`
+- [ ] Remove the `.github` folder which contains the funding info
+- [ ] Clean up the READMEs and remove routes
+
+And, enjoy :)
+
 ## Usage
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+### Development
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+Just run and visit http://localhost:3333
 
 ```bash
-$ npm install # or pnpm install or yarn install
+pnpm dev
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+### Build
 
-## Available Scripts
+To build the App, run
 
-In the project directory, you can run:
+```bash
+pnpm build
+```
 
-### `npm dev` or `npm start`
+And you will see the generated file in `dist` that ready to be served.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Todo
 
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+- [ ] 📦 Components auto importing
+- [ ] 📑 Layout system
+- [ ] 🗒 Markdown Support
+- [ ] 🖨 Static-site generation (SSG)
