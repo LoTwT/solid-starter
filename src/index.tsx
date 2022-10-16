@@ -1,13 +1,13 @@
 /* @refresh reload */
-import { render } from "solid-js/web";
-import { Router, useRoutes } from "solid-app-router";
-import routes from "~solid-pages";
+import { render } from "solid-js/web"
+import { Router, useRoutes } from "solid-app-router"
+import routes from "~solid-pages"
 
-import "@unocss/reset/tailwind.css";
-import "@/styles/index.css";
-import "uno.css";
+import "@unocss/reset/tailwind.css"
+import "@/styles/index.css"
+import "uno.css"
 
-const Routes = useRoutes(routes);
+const Routes = useRoutes(routes)
 
 render(
   () => (
@@ -15,5 +15,5 @@ render(
       <Routes />
     </Router>
   ),
-  document.getElementById("root") as HTMLElement
-);
+  document.getElementById("root") as HTMLElement,
+)

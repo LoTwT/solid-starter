@@ -1,5 +1,5 @@
-import logo from "@/assets/logo.svg";
-import styles from "@/styles/index.module.css";
+import logo from "@/assets/logo.svg"
+import styles from "@/styles/index.module.css"
 
 const Index = () => (
   <div class={styles.App}>
@@ -21,6 +21,6 @@ const Index = () => (
       </a>
     </header>
   </div>
-);
+)
 
-export default Index;
+export default Index
