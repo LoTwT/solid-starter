@@ -1,6 +1,6 @@
 /* @refresh reload */
 import { render } from "solid-js/web"
-import { Router, useRoutes } from "solid-app-router"
+import { Router, useRoutes } from "@solidjs/router"
 import routes from "~solid-pages"
 
 import "@unocss/reset/tailwind.css"
