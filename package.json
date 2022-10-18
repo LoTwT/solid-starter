@@ -29,6 +29,7 @@
     "solid-js": "^1.5.7"
   },
   "devDependencies": {
+    "@colid/core": "^0.0.1",
     "@iconify-json/carbon": "^1.1.8",
     "@types/node": "^18.8.5",
     "@unocss/reset": "^0.45.29",

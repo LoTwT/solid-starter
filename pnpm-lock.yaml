@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@colid/core': ^0.0.1
   '@iconify-json/carbon': ^1.1.8
   '@solidjs/router': ^0.5.0
   '@types/node': ^18.8.5
@@ -25,6 +26,7 @@ dependencies:
   solid-js: 1.5.7
 
 devDependencies:
+  '@colid/core': 0.0.1_solid-js@1.5.7
   '@iconify-json/carbon': 1.1.8
   '@types/node': 18.8.5
   '@unocss/reset': 0.45.29
@@ -371,6 +373,14 @@ packages:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+    dev: true
+
+  /@colid/core/0.0.1_solid-js@1.5.7:
+    resolution: {integrity: sha512-PAcaPH5e6gm1FrRc9l/PRqTh8a3/E4bMW1Ma4QGbf4AaeHzgsuq9K5/z+3TuLDKp6ioIOzkDXOIUJ3on35R7RA==}
+    peerDependencies:
+      solid-js: ^1
+    dependencies:
+      solid-js: 1.5.7
     dev: true
 
   /@esbuild/android-arm/0.15.10:
