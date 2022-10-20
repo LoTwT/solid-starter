@@ -2,7 +2,7 @@ import logo from "@/assets/logo.svg"
 import { useDark } from "@colid/core"
 
 const Index = () => {
-  const [dark, setDark] = useDark()
+  const { setIsDark } = useDark()
 
   return (
     <div text-center>
@@ -40,10 +40,10 @@ const Index = () => {
         </a>
 
         <div
-          i-carbon-moon
+          i-carbon-sun
+          dark:i-carbon-moon
           cursor-pointer
-          dark:i-carbon-sun
-          onclick={() => setDark(!dark())}
+          onclick={() => setIsDark((d) => !d)}
         ></div>
       </header>
     </div>
