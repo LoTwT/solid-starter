@@ -26,25 +26,25 @@
   "homepage": "https://github.com/LoTwT/solid-starter#readme",
   "dependencies": {
     "@solidjs/router": "^0.5.0",
-    "solid-js": "^1.5.9"
+    "solid-js": "^1.6.0"
   },
   "devDependencies": {
     "@colid/core": "^0.0.4",
     "@iconify-json/carbon": "^1.1.9",
-    "@types/node": "^18.11.2",
-    "@unocss/reset": "^0.45.30",
+    "@types/node": "^18.11.7",
+    "@unocss/reset": "^0.46.0",
     "jsdom": "^20.0.1",
     "lint-staged": "^13.0.3",
-    "pnpm": "^7.13.5",
+    "pnpm": "^7.14.0",
     "prettier": "^2.7.1",
     "simple-git-hooks": "^2.8.1",
     "taze": "^0.8.3",
     "typescript": "^4.8.4",
-    "unocss": "^0.45.30",
-    "unplugin-auto-import": "^0.11.2",
-    "vite": "^3.1.8",
-    "vite-plugin-pages": "^0.27.0",
-    "vite-plugin-solid": "^2.3.9",
+    "unocss": "^0.46.0",
+    "unplugin-auto-import": "^0.11.4",
+    "vite": "^3.2.0",
+    "vite-plugin-pages": "^0.27.1",
+    "vite-plugin-solid": "^2.3.10",
     "vitest": "^0.24.3"
   },
   "simple-git-hooks": {
